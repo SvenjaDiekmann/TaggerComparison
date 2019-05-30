@@ -8,14 +8,6 @@ import matplotlib.pyplot as plt
 from matplotlib import rcParams
 from matplotlib import rc
 
-#f=ROOT.TFile.Open("Hbb/JetTree_mc_FatJets_9.root")
-#f=ROOT.TFile.Open("/afs/cern.ch/user/s/sdiekman/CMSSW_9_4_13/src/GluGluHToBB_M125_13TeV_powheg_pythia8/GluGlu_ToBB_M125_13TeV_powheg_pythia8_RunIIFall17MiniAOD-94X_mc2017_realistic_v10-v1_Mar01-19/190301_131911/0000/JetTree_mc_FatJets_37.root")
-#f=ROOT.TFile.Open("srm://grid-srm.physik.rwth-aachen.de:8443/srm/managerv2?SFN=/pnfs/physik.rwth-aachen.de/cms//store/user/sdiekman/btag/GluGluHToBB_M125_13TeV_powheg_pythia8/GluGlu_ToBB_M125_13TeV_powheg_pythia8_RunIIFall17MiniAOD-94X_mc2017_realistic_v10-v1_Mar01-19/190301_131911/0000/JetTree_mc_FatJets_37.root")
-#f=ROOT.TFile.Open("root://cmsxrootd.fnal.gov///store/user/sdiekman/btag/GluGluHToBB_M125_13TeV_powheg_pythia8/GluGlu_ToBB_M125_13TeV_powheg_pythia8_RunIIFall17MiniAOD-94X_mc2017_realistic_v10-v1_Mar01-19/190301_131911/0000/JetTree_mc_FatJets_9.root")
-#tree=f.Get("btaganaFatJets/ttree")
-#f1=ROOT.TFile.Open("QCD/JetTree_mc_FatJets_33.root")
-#f1=ROOT.TFile.Open("root://cmsxrootd.fnal.gov///store/user/sdiekman/btag/QCD_Pt_600to800_TuneCP5_13TeV_pythia8/QCD_Pt_600to800_TuneCP5_13TeV_pythia8_Apr03-19/190403_130401/0000/failed/JetTree_mc_FatJets_102.root")
-#tree1=f1.Get("btaganaFatJets/ttree")
 
 #Hbb
 chain = ROOT.TChain("btaganaFatJets/ttree")
