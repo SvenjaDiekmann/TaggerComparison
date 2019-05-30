@@ -207,15 +207,6 @@ for i in list:
     chain.AddFile("root://cmsxrootd.fnal.gov///store/user/sdiekman/btag/GluGluToBulkGravitonToHHTo4B_M-900_narrow_13TeV-madgraph_correctedcfg/GluGlu_oBulkGravitonToHHTo4B_M-900_narro_Apr03-19/190403_130258/0000/"+i)
 print("Hbb 900 done!")
 
-
-
-
-
-
-
-
-
-
 #QCD
 chain1 = ROOT.TChain("btaganaFatJets/ttree")
 #300-470
@@ -269,7 +260,7 @@ print("QCD 2400-3200 done!")'''
 for i in list:
     chain1.AddFile("root://cmsxrootd.fnal.gov///store/user/sdiekman/btag/QCD_Pt_3200toInf_TuneCP5_13TeV_pythia8/QCD_Pt_3200toInf_TuneCP5_13TeV_pythia8/190322_144004/0000/failed"+i)
 print("QCD 3200-inf done!")
-print("alles eingelesen, nichts faieled, bis jetzt... :=)")'''
+'''
 
 
 nb_Had=[]
